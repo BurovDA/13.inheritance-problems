@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 public class TodosTest {
 
     @Test
-    public void searchFindOneTask() {
+    public void searchFindTaskMeeting() {
         SimpleTask simpleTask = new SimpleTask(5, "Выкатка приложения");
 
         String[] subtasks = {"Молоко", "Яйца", "Хлеб"};
@@ -31,7 +31,7 @@ public class TodosTest {
     }
 
     @Test
-    public void searchFindTwoTasks() {
+    public void searchAddFindTwoTasks() {
         SimpleTask simpleTask = new SimpleTask(5, "Протестировать приложения");
 
         String[] subtasks = {"Молоко", "Яйца", "Хлеб"};
